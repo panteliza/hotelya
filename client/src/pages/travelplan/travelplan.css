@@ -1,0 +1,228 @@
+/*  
+
+.travel-planner {
+  background-image: url('https://images.unsplash.com/photo-1494783367195-149034c05e8f');
+  background-color: #1e90ff;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  height: 100vh;
+  }
+  
+  .travel-planner h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  }
+  
+  .travel-planner div {
+  margin-bottom: 20px;
+  }
+  
+  .travel-planner label {
+  font-size: 1.2rem;
+  margin-right: 10px;
+  }
+  
+  .travel-planner select {
+  font-size: 1rem;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  }
+  
+  .travel-planner input[type='number'] {
+  font-size: 1rem;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  }
+  
+  .travel-planner input[type='checkbox'] {
+  margin-left: 10px;
+  margin-right: 10px;
+  }
+  
+  .travel-planner button {
+  font-size: 1.2rem;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  
+  .budget-display {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+  .travel-planner {
+  padding: 10px;
+  }
+  
+  .travel-planner h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  }
+  
+  .travel-planner label {
+  font-size: 1rem;
+  }
+  
+  .travel-planner select {
+  font-size: 0.8rem;
+  padding: 3px;
+  }
+  
+  .travel-planner input[type='number'] {
+  font-size: 0.8rem;
+  padding: 3px;
+  }
+  
+  .travel-planner button {
+  font-size: 1rem;
+  padding: 8px;
+  }
+  
+  .budget-display p {
+  font-size: 1rem;
+  }
+  } */
+
+
+
+
+  /* starts from here */
+  .travel-planner1{
+    background-image: url("https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1474&q=80");
+  }
+
+ .travel-planner {
+    margin:  auto;
+    max-width: 600px;
+    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1625516266310-411ddb0a9fcd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    align-items: center;
+    color: white;
+ }
+  .travel-planner h1{
+    font-size: 3rem;
+  }
+  .travel-planner .a{
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  
+ /* .travel-planner .form {
+    margin-bottom: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
+     
+      
+      }
+  
+    */
+  /* .form-group {
+    margin-bottom: 20px;
+    align-items: center;
+  } */
+  .form-group {
+    margin-bottom: 20px;
+    align-items: center;
+  } 
+  
+  .form-group .label {
+    display: block;
+    font-size: 1.1 rem;
+    margin-bottom: 15px;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .form-group .select {
+    font-size: 2rem;
+    padding: 5px;
+  }
+  
+   .eli {
+    padding: 10px 20px;
+    font-size: 18;
+  background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .bill {
+    background-color:plum;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
+  h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    font-weight: bold;
+  }
+  
+  strong {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  @media (max-width: 500px) {
+    label {
+      font-size: 16px;
+    }
+    
+    select {
+      font-size: 16px;
+    }
+    
+    button[type="submit"] {
+      font-size: 16px;
+    }
+    
+    th,
+    td {
+      font-size: 16px;
+    }
+  }
+  
+    
+
+      

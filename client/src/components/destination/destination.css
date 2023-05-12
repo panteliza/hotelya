@@ -1,0 +1,107 @@
+.destinaton{
+    margin: 4rem 6rem;
+    
+
+}
+.destination h1{
+    font-size:3rem;
+    text-align:center;
+    margin-top: 2rem;
+    color: blue;
+}
+.destination h3{
+    
+    text-align:center;
+    margin-top: 1rem;
+    
+}
+/* .destination p{
+    text-align: center;
+    font-size:1.2rem;
+} */
+.first-des{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+.second-des{
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+.des-text{
+    width:45%;
+    text-align:start;
+    font-size:1.1rem;
+    justify-content: center;
+    align-items: center;
+}
+.des-text h2{
+    padding-bottom: 1rem;
+    padding-left: 1 rem;
+    padding-right: 2 rem;
+    text-align:center;
+    color: blue;
+}
+.des-text p{
+    text-align: justify;
+  text-justify: inter-word;
+  padding-left: 5 rem;
+  padding-right: 1 rem;
+  font-size:1.3rem;
+}
+.des-text button{
+    
+    padding-bottom: 1rem;
+    padding-left: 1 rem;
+    padding-right: 2 rem;
+    text-align:center;
+    
+    font-size:1.1rem;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    position: relative;
+    width:50%;
+    display:flex;
+    justify-content:space-between;
+    z-index:-99;
+}
+.image img{
+width:49%;
+height:350px;
+object-fit:cover;
+border-radius: 6px;
+box-shadow:-1px 1px 62px -18px rgba(0,0,0,0.19);
+
+}
+
+.image img:nth-child(2){
+position:absolute;
+top:-10%;
+right:0;
+
+}
+  .show{
+    text-decoration: none;
+    background: #875f79;
+    padding:1rem 2rem;
+    border-radius: 5px;
+    font-size:1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgb(245, 239, 239);
+    
+
+
+  }
+
+  .link {
+    color: white;
+    text-decoration: none;
+  }
+  
