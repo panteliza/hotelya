@@ -1,10 +1,12 @@
 import useFetch from "../../hooks/useFetch";
 import "./featured.css";
 
+
 const Featured = () => {
   const { data, loading, error } = useFetch(
     "/hotels/countByCity?cities=pokhara,kathmandu,chitwan"
   );
+  
 
   return (
     <div className="featured">
@@ -19,7 +21,7 @@ const Featured = () => {
               className="featuredImg"
             />
             <div className="featuredTitles">
-              <h1>Pokhara</h1>
+              <h1 > Pokhara</h1>
               <h2>{data[0]} properties</h2>
             </div>
           </div>

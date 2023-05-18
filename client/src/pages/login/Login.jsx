@@ -23,8 +23,10 @@ const navigate = useNavigate()
     e.preventDefault();
     dispatch({ type: "LOGIN_START" });
     try {
+      //edit api endpoint with register api endpoint for register
       const res = await axios.post("/auth/login", credentials);
       dispatch({ type: "LOGIN_SUCCESS", payload: res.data.details });
+      //edit navigation endpoint with /login for register
       navigate("/")
     } catch (err) {
       dispatch({ type: "LOGIN_FAILURE", payload: err.response.data });

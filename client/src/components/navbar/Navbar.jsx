@@ -1,11 +1,17 @@
 import "./navbar.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "../../context/AuthContext";
 
 
 const Navbar = () => {
   const { user } = useContext(AuthContext);
+  const auth= localStorage.getItem('user');
+  const navigate= useNavigate();
+  const logout =()=>{
+    localStorage.clear();
+    navigate("/register");
+  }
 
   return (
     <div className="navbar">
@@ -15,7 +21,7 @@ const Navbar = () => {
         </Link>
         {user ? user.username : (
           <div className="navItems">
-            <Link to ="/register">
+            <Link to ="/register" >
             <button className="navButton">
 
             Register
@@ -29,6 +35,9 @@ const Navbar = () => {
             </Link>
           </div>
         )}
+        <div>{auth? <Link onClick={logout} to="/login">Logout</Link>:
+        <Link to="/login">Register</Link> }
+        </div>
       </div>
     </div>
   );

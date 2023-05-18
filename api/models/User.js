@@ -15,9 +15,7 @@ const UserSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    img: {
-      type: String,
-    },
+    
     city: {
       type: String,
       required: true,
@@ -34,6 +32,10 @@ const UserSchema = new mongoose.Schema(
       type: Boolean,
       default: false,
     },
+    roomBooked:{
+      type:Boolean,
+      default: false,
+    }
   },
   { timestamps: true }
 );
