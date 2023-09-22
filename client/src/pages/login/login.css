@@ -3,7 +3,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(https://www.pexels.com/photo/red-and-brown-temple-roofs-2104882/);
+  background-image: url(https://images.unsplash.com/photo-1587320754512-da4dbc717fc7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .lContainer {
