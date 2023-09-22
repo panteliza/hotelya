@@ -49,7 +49,7 @@
 }
 
 .headerSearch {
-  height: 50px;
+  height: 60px;
   background-color: white;
   border: 3px solid #febb02;
   display: flex;
@@ -61,9 +61,6 @@
   bottom: -25px;
   width: 100%;
   max-width: 1024px;
-}
-.headerTitle{
-font-size: 2rem;
 }
 
 .headerIcon {
@@ -82,7 +79,7 @@ font-size: 2rem;
 }
 
 .headerSearchText {
-  color: lightgray;
+  color: gray;
   cursor: pointer;
 }
 
