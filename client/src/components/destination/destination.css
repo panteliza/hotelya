@@ -1,29 +1,20 @@
-.destinaton{
-    margin: 4rem 6rem;
-    
-
-}
+.destination {
+    margin: 2rem 2rem 3rem 2rem; /* top right bottom left */
+  }
+  
 .destination h1{
     font-size:3rem;
     text-align:center;
     margin-top: 2rem;
-    color: blue;
 }
-.destination h3{
-    
-    text-align:center;
-    margin-top: 1rem;
-    
-}
-/* .destination p{
+.destination p{
     text-align: center;
-    font-size:1.2rem;
-} */
+}
 .first-des{
     display:flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 4rem;
+    margin-top: 4.5rem;
 }
 .second-des{
     display:flex;
@@ -44,14 +35,12 @@
     padding-left: 1 rem;
     padding-right: 2 rem;
     text-align:center;
-    color: blue;
 }
 .des-text p{
     text-align: justify;
   text-justify: inter-word;
   padding-left: 5 rem;
   padding-right: 1 rem;
-  font-size:1.3rem;
 }
 .des-text button{
     
